@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Mark</title>
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./script.js" defer></script>
+    <script src="./practise.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">King</a>
+            <ul class="nav-links">
+                <li><a href="#portfolio" class="nav-items">Portfolio</a></li>
+                <li><a href="#hero" class="nav-items">About</a></li>
+                <li><a href="#contact" class="nav-items">Contacts</a></li>
+                <li><a href="mailto:kingmarkng8@gmail.com" class="nav-items"><i class="fa-regular fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        <div class="mobile-nav">
+        <a href="#home" class="logo">King</a>
+        <i class="fa fa-bars"></i>
+
+    <div class="active">
+        <ul class="nav-links">
+            <li><a href="#portfolio" class="nav-items">
+                <span>Portfolio</span>
+                <i class="fa fa-chevron-right"></i>
+            </a></li>
+            <li><a href="#hero" class="nav-items">
+                <span>About</span>
+                <i class="fa fa-chevron-right"></i>
+
+            </a></li>
+            <li><a href="#contact" class="nav-items">
+                <span>Contacts</span>
+                <i class="fa fa-chevron-right"></i>
+
+            </a></li>
+            <li><a href="#" class="nav-items"><i class="fa-regular fa-envelope"></i></a></li>
+        </ul>
+        <i class="fa-solid fa-xmark" id="close-mobile"></i>
+
+    </div>
+        </div>
+    </nav>
+    <main id="home">
+
+    <section id="hero">
+        <div class="hero-inner">
+            <h1>King Mark</h1>
+            <h5>Software Developer</h5>
+            
+            <p>i can help you build a project, feature or website
+                Look through some of my works and experience</p>
+
+                <p>If you like what you see and have a project you
+                    need coded, don't hesitate to contact me</p>
+            <div class="tech-stack_container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Language</th>
+                            <th>Frameworks</th>
+                            <th>Skills</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Javascript</td>
+                            <td>Bootstrap</td>
+                            <td>Codekit</td>
+                        </tr>
+                        <tr>
+                            <td>Ruby</td>
+                            <td>Ruby on Rails</td>
+                            <td>Github</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>RSPec</td>
+                            <td>Codepen</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>CapyBara</td>
+                            <td>Gitlab</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Selemium</td>
+                            <td>Terminal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-container">
+            <a href="#portfolio" class="work-navigator">
+                <span>Work</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <div class="profiles">
+                <a href="#github"><i class="fa-brands fa-github"></i></a>
+                <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+           <a href="#portfolio" class="work-navigator">
+               <i class="fa-solid fa-arrow-down"></i>
+               <span>Work</span>
+            </a>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-inner_container">
+            <h3 class="title">My recent work</h3>
+            <hr>
+            
+            <div class="projects_container"></div>
+        </div>
+    </section>
+    <section class="contact-form" id="contact">
+                <div class="contact-form_inner">
+                    <h4 class="title">Let's chat!</h4>
+                <p>If you have an application you 
+                    are interested in developing, a 
+                    feature that you need built or project
+                  that meeds coding, i'd love to help with it.</p>
+            
+                <form action="https://formspree.io/f/xdeknyqk" class="form" id="form" method="POST">
+                    <div class="row">
+                    <input id="first name" type="text" placeholder="First Name" name="First-Name" required>
+                    <input id="last name"type="text" placeholder="Last Name" name="Last-Name" required>
+                    </div>
+                    <input id="email" type="email" placeholder="Email Address" name="email" required>
+                    <textarea name="message" id="message" placeholder="Write Your Message Here" rows="10" required></textarea>
+                    <button href="" type="submit">Send</button>
+                    </form>
+                </div>
+            </main>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <div class="head">
+                            <h4 class="modal-title" id="modal-title"></h4>
+                            <i class="fa-solid fa-xmark" id="close-modal"></i>
+                        </div>
+                            <div class="body">
+                                <div class="img_container">
+                                    <img id="modal-image" src="" alt="">
+                                </div>
+                                <div class="others">
+                                    <p class="modal-description" id="modal-description"> 
+                                    </p>
+                                    <div class="more">
+                                        <div class="tech-stacks" id="modal-technologies">
+                                        </div>
+                                        <div class="btns">
+                                            <a class="modal-live" target="_blank" href="#" id="modal-live">See Live
+                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </a>
+                                            <a class="modal-source" href="#" target="_blank" id="modal-source">See Source
+                                                <i class="fa-brands fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+<footer>
+    <div class="footer-inner">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <a href="" class="mail-info">info@kingmarkng8.ng.com</a>
+    </div>
+</footer>
+</body>
+</html>
