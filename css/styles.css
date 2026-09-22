@@ -281,7 +281,7 @@ main {
     position: absolute;
     bottom: 250px;
     right: 150px;
-    animation: glow 5s ease-in-out / infinite;
+    animation: glow 5s ease-in-out infinite;
     border-radius: 50%;
     box-shadow: 0 0 50px 10px var(--accent-color);
     filter: blur(10px);
@@ -738,6 +738,7 @@ footer .footer-inner a {
         z-index: 999;
         inset: 0;
         padding: 20% 0;
+        display: none;
     }
 
     .mobile-nav .active .nav-links {
