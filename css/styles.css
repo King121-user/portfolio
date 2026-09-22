@@ -922,7 +922,7 @@ footer .footer-inner a {
     .modal .modal-content {
         width: 100%;
         max-width: 95vw;
-        height: 85%;
+        height: 100%;
     }
 
     .modal-content .body .img_container {
