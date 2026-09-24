@@ -59,12 +59,12 @@ const projects = [
 
     {
         id: 1,
-        project_title: "Multi-Post Stories",
-        img:"./assets/images/placeholder.png",
-        description: "A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-            tech_stacks: ["HTML", "CSS", "Javascript", "Ruby"],
-        sources:"#",
-        links:"#",
+        project_title: "Web Calculator",
+        img:"./assets/images/calculator.png",
+        description: "A responsive and interactive calculator application built with HTML, CSS, and JavaScript. This project demonstrates practical front-end development skills by combining a clean user interface with JavaScript-powered functionality and dynamic DOM manipulation.",
+            tech_stacks: ["HTML", "CSS", "Javascript"],
+        sources:"https://github.com/King121-user/Calculator",
+        links:"https://king121-user.github.io/Calculator/",
     },
     {
         id: 2,
